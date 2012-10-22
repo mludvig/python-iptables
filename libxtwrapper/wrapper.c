@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/utsname.h>
-#include "../iptables/include/xtables.h.in"
+#include <xtables.h>
 
 int kernel_version;
 
