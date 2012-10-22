@@ -21,7 +21,7 @@ setup(
                               "libxtwrapper",
                               ["libxtwrapper/wrapper.c"],
                               extra_compile_args = ["-g", "-O0"],
-                              extra_link_args = ["-g", "-O0"]   
+                              extra_link_args = ["-g", "-O0", "-lxtables"]   
                               )],
     classifiers         = [
         "Development Status :: 4 - Beta",
